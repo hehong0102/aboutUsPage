@@ -67,7 +67,15 @@ body {
     margin-bottom: 20px;
   }
   div.container-aboutUsPage div.box-2 div.information section {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+  }
+  div.container-aboutUsPage div.box-2 div.information section a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  div.container-aboutUsPage div.box-2 div.information section a img {
+    width: 12px;
   }
   div.container-aboutUsPage div.box-2 div.information section img {
     width: 100%;
@@ -140,11 +148,24 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   div.container-aboutUsPage div.box-2 div.information section {
-    width: 445px;
+    width: 425px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  div.container-aboutUsPage div.box-2 div.information section a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+  }
+  div.container-aboutUsPage div.box-2 div.information section a img {
+    width: 24px;
+    vertical-align: middle;
   }
 }
 
